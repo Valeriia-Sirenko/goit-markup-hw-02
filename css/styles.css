@@ -167,6 +167,7 @@ body {
 .main-title-portfolio {
 }
 .list-portfolio {
+  list-style-type: none;
 }
 .li-portfolio {
 }
