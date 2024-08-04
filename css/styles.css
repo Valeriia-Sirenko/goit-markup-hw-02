@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 150%;
   font-weight: 400;
   font-style: normal;
@@ -87,7 +87,7 @@ color: #2e2f42;
   color: #434455;
   text-decoration: none;
   font-style: normal;
-letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
 
 }
 .main-information {
@@ -102,13 +102,7 @@ letter-spacing: 0.02em;
   line-height: 60px;
   color: #fff;
 }
-.button-servise {
-  border: 1px solid #000;
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+.button-servise { 
   background: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -116,11 +110,6 @@ letter-spacing: 0.02em;
   color: #fff;
 }
 .button-servise:hover {
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #404bbf;
   font-weight: 500;
   font-size: 16px;
