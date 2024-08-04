@@ -38,32 +38,22 @@ body {
 .information {
   text-decoration: none;
 }
-/* контакти */
+/* контакти ADRES*/
 .contacts-address {
-  font-style: normal 
+  font-style: normal;
 }
 .contacts-list {
   list-style-type: none;
 }
 .li-contact {
-  
 }
 .information-link {
-  font-weight: 500
+  font-weight: 500;
   font-size: 16px;
   text-decoration: none;
   color: #2e2f42;
   letter-spacing: 0.02em;
 }
-
-.information-link-studio {
-font-weight: 500;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0.02em;
-color: #2e2f42;
-}
-
 
 .information-link:hover,
 .contact-email:hover,
@@ -77,7 +67,7 @@ color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
-  color:#404bbf ;
+  color: #404bbf;
   text-decoration: underline;
 }
 
@@ -88,7 +78,6 @@ color: #2e2f42;
   text-decoration: none;
   font-style: normal;
   letter-spacing: 0.02em;
-
 }
 .main-information {
 }
@@ -102,7 +91,7 @@ color: #2e2f42;
   line-height: 60px;
   color: #fff;
 }
-.button-servise { 
+.button-servise {
   background: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
