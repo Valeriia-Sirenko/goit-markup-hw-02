@@ -7,8 +7,10 @@ body {
   background: #fff;
   cursor: pointer;
 }
+/* хедер */
 .top-line {
 }
+/* лого */
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -29,27 +31,40 @@ body {
   color: #2e2f42;
   letter-spacing: 0.03em;
 }
+/* розділи */
 .information-list {
   list-style-type: none;
 }
 .information {
   text-decoration: none;
 }
+/* контакти */
 .contacts-address {
+  font-style: normal 
 }
 .contacts-list {
   list-style-type: none;
 }
-.contact {
+.li-contact {
 }
 .information-link {
-  font-weight: 500;
+  font-weight: 500
   font-size: 16px;
   text-decoration: none;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
+
+.information-link-studio {
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+
 .information-link:hover,
-.information-link-studio:hover,
 .contact-email:hover,
 .contact-tel:hover {
   font-weight: 500;
@@ -57,11 +72,11 @@ body {
   line-height: 150%;
   color: #404bbf;
 }
-.information-link-studio:active {
+.information-link:active {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
-  color: #404bbf;
+  color:#404bbf ;
   text-decoration: underline;
 }
 
