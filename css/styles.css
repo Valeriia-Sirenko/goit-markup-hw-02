@@ -10,100 +10,89 @@ body {
 /* хедер */
 .top-line {
 }
-/* лого */
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  color: #4d5ae5;
-  text-transform: uppercase;
-  text-decoration: none;
   line-height: 117%;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
 }
 .span-logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  text-transform: uppercase;
-  text-decoration: none;
-  line-height: 117%;
   color: #2e2f42;
-  letter-spacing: 0.03em;
 }
-/* розділи */
-.information-list {
+.span-logo-wh {
+  color: #f4f4fd;
+}
+
+.list-information {
   list-style-type: none;
 }
-.information {
+.li-information {
+}
+.link-information {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
   text-decoration: none;
 }
-/* контакти ADRES*/
-.contacts-address {
-  font-style: normal;
+
+.link-information:hover,
+.link-information:active {
+  color: #404bbf;
 }
-.contacts-list {
+
+.address-contacts {
+}
+.list-contacts {
   list-style-type: none;
 }
 .li-contact {
 }
-.information-link {
-  font-weight: 500;
+.link-contact-email,
+.link-contact-tel {
   font-size: 16px;
-  text-decoration: none;
-  color: #2e2f42;
+  line-height: 150%;
   letter-spacing: 0.02em;
-}
-
-.information-link:hover,
-.contact-email:hover,
-.contact-tel:hover {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
-  color: #404bbf;
-}
-.information-link:active {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
-  color: #404bbf;
-  text-decoration: underline;
-}
-
-.contact-email,
-.contact-tel {
-  font-size: 16px;
   color: #434455;
   text-decoration: none;
   font-style: normal;
-  letter-spacing: 0.02em;
 }
+.link-contact-email:hover,
+.link-contact-tel:hover {
+  color: #404bbf;
+}
+
 .main-information {
 }
 .hero-image {
   background: #2e2f42;
   text-align: center;
 }
-.hero-image-title {
+.title-hero-image {
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
   color: #fff;
 }
+
 .button-servise {
-  background: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
+  letter-spacing: 0.04em;
   color: #fff;
+  background: #4d5ae5;
 }
+
 .button-servise:hover {
   background: #404bbf;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
-  color: #fff;
 }
 
 .section-first {
@@ -113,36 +102,50 @@ body {
 .list-advantages {
   list-style-type: none;
 }
-.dox-advantages {
+.li-advantages {
 }
 .title-advantages {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .text-advantages {
   font-size: 16px;
   line-height: 150%;
+  letter-spacing: 0.02em;
 }
 .section-second {
   background: #f4f4fd;
 }
-.team {
+.title-team {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
 }
 .list-team {
   list-style-type: none;
 }
-.worker {
+.li-team {
+  background: #fff;
 }
 .title-workers {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
 .text-workers {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 .list-traling-icons {
   list-style-type: none;
@@ -165,22 +168,30 @@ body {
 }
 .section-third {
 }
-.main-title-portfolio {
+.title-main-portfolio {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 .list-portfolio {
   list-style-type: none;
 }
 .li-portfolio {
+  background: #fff;
 }
 .title-portfolio {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .text-portfolio {
   font-size: 16px;
   line-height: 150%;
+  letter-spacing: 0.02em;
 }
 .section-footer {
   background: #2e2f42;
@@ -188,5 +199,6 @@ body {
 .text-footer {
   font-size: 16px;
   line-height: 150%;
+  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
